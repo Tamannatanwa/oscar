@@ -1,0 +1,102 @@
+/* SignupPage.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Fraunces, Arial, sans-serif' !important;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width and height calculations */
+  }
+  
+  .centerText {
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .primaryButton {
+    background-color: #ff5c0a;
+    color: #fff;
+    font-family: cursive;
+    border: none;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 50px;
+    padding-inline: 50px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  .primaryButton:hover {
+    background-color: #e65200; /* Darken the button on hover */
+  }
+  
+  .secondaryButton {
+    color: #000;
+    font-family: cursive;
+    border: none;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 50px;
+    padding-inline: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 10px 0;
+    transition: box-shadow 0.3s ease; /*Add smooth transition*/
+  }
+  
+  .secondaryButton:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .dialogPaper {
+    background-color: #f7f0f0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .dialogTitle {
+    font-weight: bold;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 1200px) {
+    .primaryButton, .secondaryButton {
+      font-size: 20px;
+      padding: 12px;
+      padding-inline: 40px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .primaryButton, .secondaryButton {
+      font-size: 18px;
+      padding: 10px;
+      padding-inline: 35px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .primaryButton, .secondaryButton {
+      font-size: 16px;
+      padding: 8px;
+      padding-inline: 30px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .primaryButton, .secondaryButton {
+      font-size: 14px;
+      padding: 6px;
+      padding-inline: 25px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    .centerText {
+      padding: 0 10px;
+    }
+  }
+  
